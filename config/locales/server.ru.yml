@@ -1,0 +1,4 @@
+ru:
+  user_notifications:
+    digest:
+      from: "Cводка новостей сайта %{site_name}"

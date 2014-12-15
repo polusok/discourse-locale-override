@@ -1,0 +1,6 @@
+ru:
+  js:
+    filters:
+      new:
+        title:
+          few: "Новые ({{count}})"
