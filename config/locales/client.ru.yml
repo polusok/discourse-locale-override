@@ -2,5 +2,8 @@ ru:
   js:
     filters:
       new:
-        title:
-          few: "Новые ({{count}})"
+        lower_title_with_count:
+          zero: ""
+      unread:
+        lower_title_with_count:
+          zero: ""        

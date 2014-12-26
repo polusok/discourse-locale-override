@@ -1,4 +1,4 @@
 ru:
   user_notifications:
     digest:
-      from: "новости сайта %{site_name}"
+      from: "%{site_name}"
