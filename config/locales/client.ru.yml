@@ -1,5 +1,12 @@
 ru:
   js:
+    user:
+      email:
+        frequency:
+          zero: "We'll email you immediately if you haven't read the thing we're emailing you about."
+          one: "We'll only email you if we haven't seen you in the last minute and you haven't read the thing we're emailing you about."
+          other: "We'll only email you if we haven't seen you in the last {{count}} minutes and you haven't read the thing we're emailing you about."
+
     filters:
       new:
         title:
