@@ -6,7 +6,14 @@ ru:
           zero: "We'll email you immediately if you haven't read the thing we're emailing you about."
           one: "We'll only email you if we haven't seen you in the last minute and you haven't read the thing we're emailing you about."
           other: "We'll only email you if we haven't seen you in the last {{count}} minutes and you haven't read the thing we're emailing you about."
-
+    solved:
+      allow_accepted_answers: "Позволить пользователям принимать ответы"
+      accept_answer: "принять ответ, который решает вопрос или проблему"
+      has_accepted_answer: "Тема с принятыми решениями, которые точно работают"
+      unaccept_answer: "Непринятый ответ"
+      accepted_answer: "Принятый ответ"
+      accepted_html: "<i class='fa-check-square fa accepted'></i> Решено <a href data-user-card='{{username_lower}}'>{{username}}</a> в <a href='{{post_path}}'>ответе #{{post_number}}</a>"
+      accepted_notification: "<i title='accepted' class='fa fa-check-square'></i><p><span>{{username}}</span> {{description}}</p>"
     filters:
       new:
         title:
@@ -18,5 +25,5 @@ ru:
         title:
           few: "Непрочитанные ({{count}})"
         lower_title_with_count:
-          zero: ""        
+          zero: ""
           few: "{{count}} непрочитано"
