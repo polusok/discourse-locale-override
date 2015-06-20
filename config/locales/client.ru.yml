@@ -8,7 +8,7 @@ ru:
           other: "We'll only email you if we haven't seen you in the last {{count}} minutes and you haven't read the thing we're emailing you about."
     solved:
       allow_accepted_answers: "Позволить пользователям принимать ответы"
-      accept_answer: "принять ответ, этот комментарий решает вопрос или проблему"
+      accept_answer: "принять ответ, этот комментарий решает поставленый вопрос или проблему"
       has_accepted_answer: "Тема с принятыми решениями, которые точно работают"
       unaccept_answer: "снять отметку принятого ответа"
       accepted_answer: "Принятый ответ"
