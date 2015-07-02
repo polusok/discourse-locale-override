@@ -1,5 +1,38 @@
 ru:
   js:
+    admin:
+      logs:
+        staff_actions:
+          actions:
+            deleted_tag: "удаленный тег"
+            renamed_tag: "переименованный тег"
+    topics:
+      bulk:
+        change_tags: "Изменить теги"
+        choose_new_tags: "Выбрать новые теги для этих тем:"
+        changed_tags: "Теги этих тем были изменены."
+    tagging:
+      all_tags: "Все теги"
+      changed: "измененные теги:"
+      tags: "Теги"
+      choose_for_topic: "Выбрать теги для этой темы"
+      delete_tag: "Удалить тег"
+      delete_confirm: "Вы уверены что хотите удалить этот тег?"
+      rename_tag: "Переименовать тег"
+      rename_instructions: "Выбрать новое название тега:"
+      notifications:
+        watching:
+          title: "Наблюдать"
+          description: "You will automatically watch all new topics in this tag. You will be notified of all new posts and topics, plus the count of unread and new posts will also appear next to the topic."
+        tracking:
+          title: "Следить"
+          description: "You will automatically track all new topics in this tag. A count of unread and new posts will appear next to the topic."
+        regular:
+          title: "Уведомлять"
+          description: "You will be notified if someone mentions your @name or replies to your post."
+        muted:
+          title: "Без уведомлений"
+          description: "You will not be notified of anything about new topics in this tag, and they will not appear on your unread tab."
     user:
       email:
         frequency:
@@ -27,3 +60,14 @@ ru:
         lower_title_with_count:
           zero: ""
           few: "{{count}} непрочитано"
+  dates:
+      later:
+        x_days:
+          one: "Спустя 1 день"
+          other: "Спустя %{count} дня(ей)"
+        x_months:
+          one: "Спустя 1 месяц"
+          other: "Спустя %{count} месяца(ев)"
+        x_years:
+          one: "Спустя 1 год"
+          other: "Спустя %{count} года(лет)."
