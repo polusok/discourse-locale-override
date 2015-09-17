@@ -60,6 +60,15 @@ ru:
         lower_title_with_count:
           zero: ""
           few: "{{count}} непрочитано"
+    poll:
+      voters:
+        one: "голос"
+        few: "голоса(ов)"
+        other: "голоса(ов)"
+      total_votes:
+        one: "всего проголосовало"
+        few: "всего проголосовало"
+        other: "всего проголосовало"
   dates:
       later:
         x_days:
