@@ -70,13 +70,29 @@ ru:
         few: "всего голосов"
         other: "всего голосов"
   dates:
-      later:
-        x_days:
-          one: "Спустя 1 день"
-          other: "Спустя %{count} дня(ей)"
-        x_months:
-          one: "Спустя 1 месяц"
-          other: "Спустя %{count} месяца(ев)"
-        x_years:
-          one: "Спустя 1 год"
-          other: "Спустя %{count} года(лет)."
+    later:
+      x_days:
+        one: "Спустя 1 день"
+        other: "Спустя %{count} дня(ей)"
+      x_months:
+        one: "Спустя 1 месяц"
+        other: "Спустя %{count} месяца(ев)"
+      x_years:
+        one: "Спустя 1 год"
+        other: "Спустя %{count} года(лет)."
+  filters:
+    new:
+      title:
+        few: "Новые ({{count}})"
+        other: "Новые ({{count}})"
+      lower_title_with_count:
+        zero: ""
+        few: "{{count}} новых"
+    unread:
+      title:
+        few: "Непрочитанные ({{count}})"
+        other: "Непрочитанные ({{count}})"
+      lower_title_with_count:
+        zero: ""
+        few: "{{count}} непрочитано"
+
