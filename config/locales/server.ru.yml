@@ -2,3 +2,18 @@ ru:
   user_notifications:
     digest:
       from: "%{site_name}"
+  filters:
+    new:
+      title:
+        few: "Новые ({{count}})"
+        other: "Новые ({{count}})"
+      lower_title_with_count:
+        zero: ""
+        few: "{{count}} новых"
+    unread:
+      title:
+        few: "Непрочитанные ({{count}})"
+        other: "Непрочитанные ({{count}})"
+      lower_title_with_count:
+        zero: ""
+        few: "{{count}} непрочитано"
