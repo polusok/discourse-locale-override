@@ -1,0 +1,13 @@
+ru:
+  js:
+    poll:
+      voters:
+        one: "участник"
+        few: "участника"
+        many: "участников"
+        other: "участников"
+      total_votes:
+        one: "голос"
+        few: "голоса"
+        many: "голосов"
+        other: "голосов"
